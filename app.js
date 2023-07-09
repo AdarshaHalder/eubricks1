@@ -75,7 +75,7 @@ app.use(cors())
 
 
 mongoose
-.connect("mongodb+srv://swarnajha2018:swarna071@cluster0.iqs89q6.mongodb.net/?retryWrites=true&w=majority")
+.connect("mongodb+srv://adarshahalder02:Adarsha123@cluster0.mwdjulp.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>console.log("connected"))
 .catch((err)=>console.log(err))
 

@@ -6,7 +6,7 @@ import { Cog6ToothIcon } from "@heroicons/react/24/solid";
 import { ArrowRightOnRectangleIcon } from "@heroicons/react/24/solid";
 function LeftBar() {
   return (
-    <div className='px-4 pl-4 bg-blue-700 hidden pt-[5rem] sm:flex flex-col items-center xl:items-start xl:w-[220px] p-2 fixed h-full  pr-0 xl:pr-8 z-[2]'>
+    <div className='px-1 pl-4 bg-blue-700 hidden pt-[5rem] sm:flex flex-col items-center xl:items-start xl:w-[220px] p-2 fixed h-full  pr-0 xl:pr-8 z-[2]'>
     <div className='text-[50px] text-white'>ToDo</div>
 
     <div className="flex flex-col p-8 gap-8 text-white">

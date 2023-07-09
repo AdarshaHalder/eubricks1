@@ -24,16 +24,28 @@ function TodoApp() {
   
   return (
     <div>
-   
-
-      <nav class="font-sans flex flex-col text-center  sm:flex-row sm:text-left sm:justify-between py-1 px-6 
-      bg-blue-400  shadow sm:items-baseline w-full mb-10">
-  <div class="mb-2 sm:mb-0">
-    <a href="/home" class="text-2xl text-white font-medium no-underline text-grey-darkest ">TODO</a>
+   <nav class="navbar navbar-expand-lg navbar-light bg-green-100">
+  <a class="navbar-brand" style={{color:'darkblue'}}href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
   </div>
- 
 </nav>
-
       <div class="mb-3 w-[30%] m-auto">
   <div class="relative mb-4 flex w-full flex-wrap items-stretch">
     <input
