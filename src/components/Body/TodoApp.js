@@ -3,6 +3,7 @@ import {  addToDo, deleteToDo, getAllToDo, updateToDo } from './utils/Api'
 import { PlusIcon } from "@heroicons/react/24/outline";
 import { ArrowUpOnSquareIcon } from "@heroicons/react/24/outline";
 import Todolist from './Todolist';
+import Footer from "./footer"
 function TodoApp() {
   const [toDo, setToDo] = useState([])
   const [text, setText] = useState("")
@@ -83,8 +84,12 @@ function TodoApp() {
           )}
        
        
-      </div></div>
+      </div>
+
+      </div>
+      <Footer/>
     </div>
+    
   )
 }
 

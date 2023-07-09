@@ -1,5 +1,5 @@
 // const mongoose=require("mongoose")
-// mongoose.connect("mongodb+srv://swarnajha2018:swarna071@cluster0.iqs89q6.mongodb.net/?retryWrites=true&w=majority")
+// mongoose.connect("")
 // .then(()=>{
 //     console.log("mongodb connected");
 // })

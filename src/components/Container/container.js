@@ -20,13 +20,13 @@ const App =() =>{
 
        <div className=" flex  gap-5">
        <div className="">
-      <CardCategory title="College studies 👨‍💻" des="a" label="succes"/>
+      <CardCategory title="College studies 👨‍💻" des="a" label="successfull"/>
     </div>
     <div className="">
-    <CardCategory title="Web Devlopment 🌐" des="a" label="succes"/>
+    <CardCategory title="Web Devlopment 🌐" des="a" label="succesfull"/>
     </div>
     <div className="">
-    <CardCategory title="Placement preparation" des="a" label="succes"/>
+    <CardCategory title="Placement preparation" des="a" label="succesfull"/>
     </div>
     
 

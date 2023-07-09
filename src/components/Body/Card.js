@@ -33,7 +33,7 @@ function CardCategory({title,des,label}) {
         {title}
         </Typography>
         <Typography sx={{ mb: 0.5 }} color="text.secondary">
-          adjective
+        ADD YOUR TASK
         </Typography>
         <Typography variant="body2">
           {des}

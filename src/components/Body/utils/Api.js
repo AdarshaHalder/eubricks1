@@ -1,5 +1,5 @@
 import axios from 'axios';
-const baseUrl ="http://localhost:8000"
+const baseUrl ="https://todoadarsh12.onrender.com"
 
 const Swal = require('sweetalert2')
 const getAllToDo = (setToDo) => {
